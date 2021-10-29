@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+
+<!-- главное очертание ТЦ  -->
+<symbol id="main-block">
+<path d="M590.5 1.5L1.5 1L22 201.5L141.5 202.5H155.5H172.5H187.5V194H204.5C209.847 250.929 219.899 278.077 250.5 318L271.5 339C317.929 373.058 346.064 381.159 398.169 385.566H590.5V1.5Z" stroke="black"/>
+</symbol>
+
+<!-- 1 -->
+<symbol id="block-1">
+<line x1="75.4552" y1="136.207" x2="60.4552" y2="169.207" stroke="black"/>
+<line x1="17" y1="169.5" x2="61" y2="169.5" stroke="black"/>
+<line x1="94" y1="136.5" x2="75" y2="136.5" stroke="black"/>
+<line x1="93.5" y1="136" x2="93.5" y2="87" stroke="black"/>
+<line x1="94" y1="87.5" x2="124" y2="87.5" stroke="black"/>
+<line x1="0.497489" y1="0.949957" x2="17.4975" y2="169.95" stroke="black"/>
+<path d="M123.5 39V87.5" stroke="black"/>
+<line x1="72" y1="39.5" x2="124" y2="39.5" stroke="black"/>
+<line x1="72.5" y1="1" x2="72.5" y2="40" stroke="black"/>
+<line x1="72" y1="1.5" y2="1.5" stroke="black"/>
+</symbol>
+
+<!-- 2 -->
+<symbol id="block-2">
+<line x1="0.5" y1="22" x2="0.5" stroke="black"/>
+<line x1="13" y1="0.5" y2="0.5" stroke="black"/>
+<line x1="12.5" y1="22" x2="12.5" stroke="black"/>
+<line y1="21.5" x2="12" y2="21.5" stroke="black"/>
+</symbol>
+
+<!-- 4 -->
+<symbol id="block-4">
+<line x1="29.5" y1="49" x2="29.5" y2="25" stroke="black"/>
+<line x1="62" y1="49.5" x2="29" y2="49.5" stroke="black"/>
+<line x1="0.5" y1="-3.42298e-10" x2="0.5" y2="25" stroke="black"/>
+<line x1="1" y1="24.5" x2="30" y2="24.5" stroke="black"/>
+<line x1="61.5" y1="50" x2="61.5" y2="1" stroke="black"/>
+<line x1="1" y1="0.5" x2="62" y2="0.5" stroke="black"/>
+<symbol>
+
+<!-- 18 -->
+<symbol id="block-18">
+<line x1="32" y1="14.3462" y2="14.3462" stroke="black"/>
+<line x1="0.5" x2="0.5" y2="15" stroke="black"/>
+<line x1="32" y1="0.5" y2="0.5" stroke="black"/>
+<line x1="31.5" y1="15" x2="31.5" y2="1.15385" stroke="black"/>
+</symbol>
+
+<!-- 3 -->
+<symbol id="block-3">
+<line x1="1" y1="36.5" x2="61" y2="36.5" stroke="black"/>
+<line x1="61" y1="0.5" x2="1" y2="0.5" stroke="black"/>
+<line x1="61.5" x2="61.5" y2="37" stroke="black"/>
+<line x1="0.5" y1="37" x2="0.5" stroke="black"/>
+<symbol>
+
+<!-- 5 -->
+<symbol id="block-5">
+<line y1="30.5" x2="46" y2="30.5" stroke="black"/>
+<line x1="18" y1="0.5" x2="1.00799e-09" y2="0.5" stroke="black"/>
+<line x1="0.5" y1="1" x2="0.5" y2="31" stroke="black"/>
+<line x1="17.5064" y1="1.00108" x2="17.4979" y2="5.00106" stroke="black"/>
+<line x1="46.5" y1="5" x2="46.5" y2="31" stroke="black"/>
+<line x1="18" y1="4.5" x2="47" y2="4.5" stroke="black"/>
+</symbol>
+
+<!-- 6 -->
+<symbol id="block-6">
+<line x1="61" y1="86.5" x2="-1.27315e-10" y2="86.5" stroke="black"/>
+<line x1="24.5" x2="24.5" y2="39" stroke="black"/>
+<line x1="61.5" y1="1" x2="61.5" y2="87" stroke="black"/>
+<line x1="0.5" y1="39" x2="0.5" y2="87" stroke="black"/>
+<line x1="25" y1="39.5" y2="39.5" stroke="black"/>
+<line x1="25" y1="0.5" x2="62" y2="0.5" stroke="black"/>
+</symbol>
+
+<!-- <symbol id="block-">
+</symbol> -->
+<!-- <symbol id="block-">
+</symbol> -->
+<!-- <symbol id="block-">
+</symbol> -->
+<!-- <symbol id="block-">
+</symbol> -->
+<!-- <symbol id="block-">
+</symbol> -->
+
+
+</svg>

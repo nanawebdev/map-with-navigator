@@ -1,0 +1,62 @@
+.map {
+    position: relative;
+    width: 591px;
+    height: 387px;
+}
+
+.map svg {
+    position: absolute;
+}
+
+.map canvas {
+    position: absolute;
+}
+
+.plan {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+.mainBlock {
+    top: 0;
+    left: 0;
+}
+
+.block1 {
+    top: 0;
+    left: 1px;
+}
+
+.block2 {
+    top: 92px;
+    left: 101px;
+}
+
+.block4 {
+    bottom: 193px;
+    left: 143px;
+}
+
+.block18 {
+    bottom: 170px;
+    left: 137px;
+}
+
+.block3 {
+    bottom: 243px;
+    left: 143px;
+}
+
+.block5 {
+    bottom: 191px;
+    left: 125px;
+}
+
+.block6 {
+    top: 1px;
+    left: 143px;
+}
