@@ -45,6 +45,11 @@ const coordinates = {
     38: { x: 338, y: 257 },
     39: { x: 358, y: 257 },
     40: { x: 338, y: 282 },
+    45: { x: 253, y: 335 },
+    46: { x: 213, y: 243 },
+    47: { x: 150, y: 226 },
+
+
     // : { x: , y: },
     // : { x: , y: },
     // : { x: , y: },
@@ -82,21 +87,17 @@ const coordinates = {
     // : { x: , y: },
     // : { x: , y: },
     // : { x: , y: },
-    // : { x: , y: },
-    // : { x: , y: },
-    // : { x: , y: },
-    // : { x: , y: },
-    // : { x: , y: },
-    // : { x: , y: },
-    // : { x: , y: },
-    // : { x: , y: },
+
+    77: { x: 91, y: 226 },
+    78: { x: 91, y: 243 },
     79: { x: 262, y: 76 },
+    80: { x: 150, y: 214 },
 }
 
 
 // массив всех переходов (типо из 1 можно попасть в 8, и во 2) 
 const logs = {
-    1: { 2: 1 },
+    1: { 2: 1, 77: 1 },
     2: { 3: 1, 4: 1 },
     4: { 6: 1, 5: 1 },
     6: { 7: 1, 8: 1 },
@@ -116,6 +117,7 @@ const logs = {
     36: { 38: 1, 41: 1 },
     38: { 39: 1, 40: 1, 37: 1 },
     40: { 41: 1, 48: 1, 42: 1 },
+    47: { 18: 1, 46: 1, 45: 1, 80: 1 },
     // : {},
     // : {},
     // : {},
@@ -130,10 +132,10 @@ const logs = {
     // : {},
     // : {},
     // : {},
-    // : {},
-    // : {},
-    // : {},
-    // : {},
+
+
+    77: { 78: 1, 47: 1, 45: 1 },
+    78: { 47: 1, 46: 1 },
     79: { 21: 1, 22: 1 },
 }
 
@@ -145,7 +147,7 @@ export default class Map extends React.Component {
         const canvas = document.querySelector('canvas')
         const ctx = canvas.getContext('2d')
 
-        draw(graph.findShortestPath('1', '7'), ctx)
+        draw(graph.findShortestPath('1', '2'), ctx)
     }
 
     render() {
@@ -164,8 +166,42 @@ export default class Map extends React.Component {
                 <Icon name="block-3" className={c.block3} color="black" width="62" height="37" />
                 {/* 3 */}
                 <Icon name="block-5" className={c.block5} color="black" width="47" height="31" />
-               {/* 12  */}
+                {/* 12  */}
                 <Icon name="block-6" className={c.block6} color="black" width="62" height="87" />
+                {/* 21 */}
+                <Icon name="block-7" className={c.block7} color="black" width="77" height="87" />
+                {/* 31 */}
+                <Icon name="block-8" className={c.block8} color="black" width="87" height="77" />
+                {/* 16 */}
+                <Icon name="block-34" className={c.block34} color="black" width="89" height="87" />
+                {/* 46  */}
+                <Icon name="block-35" className={c.block35} color="black" width="53" height="78" />
+                {/* 33 */}
+                <Icon name="block-36" className={c.block36} color="black" width="40" height="44" />
+                {/* 35 */}
+                <Icon name="block-37" className={c.block37} color="black" width="40" height="44" />
+                {/* 23 */}
+                <Icon name="block-27" className={c.block27} color="black" width="34" height="34" />
+                {/* 26 */}
+                <Icon name="block-28" className={c.block28} color="black" width="34" height="34" />
+                {/* 29 */}
+                <Icon name="block-26" className={c.block26} color="black" width="42" height="63" />
+                {/* 14 */}
+                <Icon name="block-16" className={c.block16} color="black" width="13" height="22"/>
+                {/* 19 */}
+                <Icon name="block-17" className={c.block17} color="black" width="22" height="13" />
+                {/* 20  */}
+                <Icon name="block-15" className={c.block15} color="black" width="13" height="22" />
+                {/* 37 */}
+                <Icon name="block-23" className={c.block23} color="black" width="87" height="35" />
+                {/* 39 */}
+                <Icon name="block-24" className={c.block24} color="black" width="43" height="52" />
+                {/* 43 */}
+                <Icon name="block-32" className={c.block32} color="black" width="73" height="66" />
+                {/* 42 */}
+                <Icon name="block-33" className={c.block33} color="black" width="130" height="85" />
+                {/* 54 */}
+                <Icon name="block-31" className={c.block31} color="black" width="89" height="84" />
 
                 <canvas className={c.plan} width="591" height="387"></canvas>
 
