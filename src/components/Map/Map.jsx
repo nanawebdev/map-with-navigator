@@ -1,7 +1,7 @@
 import React from "react";
 import { Icon } from "../Icon/Icon";
 import { Graph } from './../../main-algorythm'
-import c from './Map.module.css'
+import c from './Map.module.scss'
 
 // массив всех точек 
 const coordinates = {
@@ -150,7 +150,7 @@ export default class Map extends React.Component {
         const canvas = document.querySelector('canvas')
         const ctx = canvas.getContext('2d')
 
-        draw(graph.findShortestPath('1', '76'), ctx)
+        draw(graph.findShortestPath('1', '68'), ctx)
     }
 
     render() {
@@ -158,7 +158,7 @@ export default class Map extends React.Component {
             <div className={c.map}>
                 <Icon name="main-block" className={c.mainBlock} color="black" width="591" height="387" />
                 {/* 5 */}
-                <Icon name="block-1" className={`${c.shop} ${c.block1}`} width="124" height="170" />
+                <Icon name="block-1" className={c.block1} width="124" height="170" />
                 {/* 9 */}
                 <Icon name="block-2" className={c.block2} color="black" width="13" height="22" />
                 {/* 47 */}
@@ -250,7 +250,8 @@ function draw(graph, ctx) {
         ctx.lineTo(coordinates[point].x, coordinates[point].y)
     })
 
-    ctx.lineWidth = 5;
-    ctx.strokeStyle = "red"
+    ctx.lineWidth = 3;
+    ctx.strokeStyle = "#ea6494"
+    ctx.lineCap="round"
     ctx.stroke()
 }

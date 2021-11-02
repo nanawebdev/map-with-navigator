@@ -2,6 +2,7 @@
     position: relative;
     width: 591px;
     height: 387px;
+    fill: #fff;
 }
 
 .map svg {
@@ -19,6 +20,7 @@
     right: 0;
     bottom: 0;
     z-index: 10;
+    pointer-events: none;
 }
 
 .mainBlock {
@@ -30,6 +32,7 @@
 .block1 {
     top: 0;
     left: 1px;
+    fill: red;
 }
 
 .block2 {
