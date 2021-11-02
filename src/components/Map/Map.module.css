@@ -69,7 +69,7 @@
 }
 
 .block8 {
-    top: 116px;
+    top: 117px;
     left: 314px;
 }
 
@@ -104,7 +104,7 @@
 }
 
 .block26 {
-    top: 54px;
+    top: 56px;
     left: 359px;
 }
 
@@ -146,4 +146,69 @@
 .block31 {
     top: 301px;
     left: 398px;
+}
+
+.block11 {
+    top: 288px;
+    left: 404px;
+}
+
+.block12 {
+    top: 288px;
+    left: 426px;
+}
+
+.block25 {
+    top: 228px;
+    left: 401px;
+}
+
+.block22 {
+    top: 193px;
+    left: 401px;
+}
+
+.block21 {
+    top: 161px;
+    left: 401px;
+}
+
+.block20 {
+    top: 138px;
+    left: 401px;
+}
+
+.block19 {
+    top: 118px;
+    left: 401px;
+}
+
+.block30 {
+    top: 56px;
+    left: 401px;
+}
+
+.block29 {
+    top: 1px;
+    left: 401px;
+}
+
+.block10{
+    bottom: 1px;
+    right: 0;
+}
+
+.block9 {
+    bottom: 69px;
+    right: 1px;
+}
+
+.block14 {
+    top: 23px;
+    left: 496px;
+}
+
+.block13 {
+    top: 45px;
+    left: 496px;
 }
