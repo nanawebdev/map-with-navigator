@@ -7,78 +7,47 @@
 
 <!-- 1 -->
 <symbol id="block-1">
-<path d="M75.4552 136.207L60.4552 169.207M17 169.5H61M94 136.5H75M93.5 136V87M94 87.5H124M0.497489 0.949951L17.4975 169.95M123.5 39V87.5M72 39.5H124M72.5 0.999994V40M72 1.49999H0" stroke="black" />
+<path d="M124 86.5H93.5001V135.5H75.3221L60.4553 168.207L17.4524 168.5L0.552826 0.499994L72.5001 0.499969V38.5H124M123.5 38V86.5" stroke="black"/>
 </symbol>
 
 <!-- 2 -->
 <symbol id="block-2">
-<path d="M0.5 22V0M13 0.5H0M12.5 22V0M0 21.5H12" stroke="black"/>
+<path d="M0.5 0.5L0.500003 21.5H12.5V0.5H0.5Z" stroke="black"/>
 </symbol>
 
 <!-- 4 -->
 <symbol id="block-4">
-<line x1="29.5" y1="49" x2="29.5" y2="25" stroke="black"/>
-<line x1="62" y1="49.5" x2="29" y2="49.5" stroke="black"/>
-<line x1="0.5" y1="-3.42298e-10" x2="0.5" y2="25" stroke="black"/>
-<line x1="1" y1="24.5" x2="30" y2="24.5" stroke="black"/>
-<line x1="61.5" y1="50" x2="61.5" y2="1" stroke="black"/>
-<line x1="1" y1="0.5" x2="62" y2="0.5" stroke="black"/>
-</symbol>
-
-<!-- 18 -->
-<symbol id="block-18">
-<line x1="32" y1="14.3462" y2="14.3462" stroke="black"/>
-<line x1="0.5" x2="0.5" y2="15" stroke="black"/>
-<line x1="32" y1="0.5" y2="0.5" stroke="black"/>
-<line x1="31.5" y1="15" x2="31.5" y2="1.15385" stroke="black"/>
+<path d="M61.5 1.83559L62 51H29.5V25.9043H0.500001V1.33557L62 1.33559" stroke="black"/>
 </symbol>
 
 <!-- 3 -->
 <symbol id="block-3">
-<line x1="1" y1="36.5" x2="61" y2="36.5" stroke="black"/>
-<line x1="61" y1="0.5" x2="1" y2="0.5" stroke="black"/>
-<line x1="61.5" x2="61.5" y2="37" stroke="black"/>
-<line x1="0.5" y1="37" x2="0.5" stroke="black"/>
+<path d="M61.5 36.5H0.5V0.500015H61.5V36.5Z" stroke="black"/>
 </symbol>
 
 <!-- 5 -->
 <symbol id="block-5">
-<line y1="30.5" x2="46" y2="30.5" stroke="black"/>
-<line x1="18" y1="0.5" x2="1.00799e-09" y2="0.5" stroke="black"/>
-<line x1="0.5" y1="1" x2="0.5" y2="31" stroke="black"/>
-<line x1="17.5064" y1="1.00108" x2="17.4979" y2="5.00106" stroke="black"/>
-<line x1="46.5" y1="5" x2="46.5" y2="31" stroke="black"/>
-<line x1="18" y1="4.5" x2="47" y2="4.5" stroke="black"/>
+<path d="M46.5 30.5H0.5L0.499996 0.5H17.4979V4.5H46.5V30.5Z" stroke="black"/>
 </symbol>
 
 <!-- 6 -->
 <symbol id="block-6">
-<line x1="61" y1="86.5" x2="-1.27315e-10" y2="86.5" stroke="black"/>
-<line x1="24.5" x2="24.5" y2="39" stroke="black"/>
-<line x1="61.5" y1="1" x2="61.5" y2="87" stroke="black"/>
-<line x1="0.5" y1="39" x2="0.5" y2="87" stroke="black"/>
-<line x1="25" y1="39.5" y2="39.5" stroke="black"/>
-<line x1="25" y1="0.5" x2="62" y2="0.5" stroke="black"/>
+<path d="M0 86.5H61.5V0.5H24.5618L24.3871 39.3309L0.00363761 39.5M0.500004 39V87" stroke="black"/>
 </symbol>
 
 <!-- 7 -->
 <symbol id="block-7">
-<line x1="76.5" x2="76.5" y2="42" stroke="black"/>
-<line x1="0.5" y1="1" x2="0.5" y2="87" stroke="black"/>
-<line x1="77" y1="0.5" y2="0.5" stroke="black"/>
-<line x1="43" y1="86.5" x2="1" y2="86.5" stroke="black"/>
-<line x1="76.3482" y1="41.3588" x2="42.3482" y2="74.3588" stroke="black"/>
-<line x1="42.5" y1="74" x2="42.5" y2="86" stroke="black"/>
+<path d="M76.5 40.9214V0.5H0.499998V86.5H42.5V74.2113L76.5 40.9214Z" stroke="black"/>
 </symbol>
 
 <!-- 8 -->
 <symbol id="block-8">
-<line y1="-0.5" x2="42" y2="-0.5" transform="matrix(-1 0 0 1 87 1.97403)" stroke="black"/>
-<line y1="-0.5" x2="86" y2="-0.5" transform="matrix(-1 0 0 1 86 76)" stroke="black"/>
-<line y1="-0.5" x2="75" y2="-0.5" transform="matrix(0 1 1 0 87 1)" stroke="black"/>
-<line y1="-0.5" x2="40.9091" y2="-0.5" transform="matrix(0 1 1 0 1 34.1169)" stroke="black"/>
-<line y1="-0.5" x2="46.7518" y2="-0.5" transform="matrix(-0.705856 0.708356 0.726674 0.686982 46 1.97403)" stroke="black"/>
-<line y1="-0.5" x2="12" y2="-0.5" transform="matrix(-1 1.90072e-09 1.82453e-09 1 13 35.0909)" stroke="black"/>
+<path d="M45.1872 1.45465H86.5V75.4246H0.5V33.968L12.6367 34.1216L45.1872 1.45465Z" stroke="black"/>
+</symbol>
+
+<!-- 26 -->
+<symbol id="block-26">
+<path d="M0.5 61.5475L42.5 61.5981V0.5H0.5V61.5475Z" stroke="black"/>
 </symbol>
 
 <!-- 34 -->
@@ -98,66 +67,42 @@
 
 <!-- 27 -->
 <symbol id="block-27">
-<line x1="34" y1="33.4539" y2="33.4539" stroke="black"/>
-<line x1="0.5" x2="0.5" y2="34" stroke="black"/>
-<line x1="34" y1="0.5" y2="0.5" stroke="black"/>
-<line x1="33.5" y1="34" x2="33.5" y2="1.0625" stroke="black"/>
+<path d="M1.3391 33.9537H34.5V0.999878L1.49999 0.999998L1.3391 33.9537Z" stroke="black"/>
 </symbol>
 
 <!-- 28 -->
 <symbol id="block-28">
-<line x1="34" y1="33.4539" y2="33.4539" stroke="black"/>
-<line x1="0.5" x2="0.5" y2="34" stroke="black"/>
-<line x1="34" y1="0.5" y2="0.5" stroke="black"/>
-<line x1="33.5" y1="34" x2="33.5" y2="1.0625" stroke="black"/>
-</symbol>
-
-<!-- 26 -->
-<symbol id="block-26">
-<path d="M42 61.5987L4.76837e-07 61.5987" stroke="black"/>
-<line x1="0.5" x2="0.5" y2="61.5474" stroke="black"/>
-<line x1="42" y1="0.5" y2="0.5" stroke="black"/>
-<line x1="41.5" y1="62" x2="41.5" y2="1" stroke="black"/>
+<path d="M1.3391 33.9537H34.5V0.999878L1.49999 0.999998L1.3391 33.9537Z" stroke="black"/>
 </symbol>
 
 <!-- 15 -->
 <symbol id="block-15">
-<line x1="0.5" y1="22" x2="0.5" stroke="black"/>
-<line x1="13" y1="0.5" y2="0.5" stroke="black"/>
-<line x1="12.5" y1="22" x2="12.5" stroke="black"/>
-<line y1="21.5" x2="12" y2="21.5" stroke="black"/>
+<path d="M0.5 0.5L0.500003 21.5H12.5V0.5H0.5Z" stroke="black"/>
 </symbol>
 
 <!-- 16 -->
 <symbol id="block-16">
-<line x1="0.5" y1="22" x2="0.5" stroke="black"/>
-<line x1="13" y1="0.5" y2="0.5" stroke="black"/>
-<line x1="12.5" y1="22" x2="12.5" stroke="black"/>
-<line y1="21.5" x2="12" y2="21.5" stroke="black"/>
+<path d="M0.5 0.5L0.500003 21.5H12.5V0.5H0.5Z" stroke="black"/>
 </symbol>
 
 <!-- 17 -->
 <symbol id="block-17">
-<line x1="22" y1="12.5" y2="12.5" stroke="black"/>
-<line x1="0.5" x2="0.5" y2="13" stroke="black"/>
-<line x1="22" y1="0.5" y2="0.5" stroke="black"/>
-<line x1="21.5" y1="13" x2="21.5" y2="1" stroke="black"/>
+<path d="M0.5 12.5H21.5V0.5H0.499985L0.5 12.5Z" stroke="black"/>
+</symbol>
+
+<!-- 18 -->
+<symbol id="block-18">
+<path d="M0.5 12.5H21.5V0.5H0.499985L0.5 12.5Z" stroke="black"/>
 </symbol>
 
 <!-- 23 -->
 <symbol id="block-23">
-<line x1="87" y1="34.4231" y2="34.4231" stroke="black"/>
-<line x1="0.5" x2="0.5" y2="35" stroke="black"/>
-<line x1="87" y1="0.5" y2="0.5" stroke="black"/>
-<line x1="86.5" y1="35" x2="86.5" y2="1.09375" stroke="black"/>
+<path d="M0.5 35.7472H86.5V1.42456L0.5 1.42457V35.7472Z" stroke="black"/>
 </symbol>
 
 <!-- 24 -->
 <symbol id="block-24">
-<line x1="43" y1="50.9" y2="50.9" stroke="black"/>
-<line x1="0.5" x2="0.5" y2="51" stroke="black"/>
-<line x1="43" y1="0.5" y2="0.5" stroke="black"/>
-<line x1="42.5" y1="51" x2="42.5" stroke="black"/>
+<path d="M0.5 51.6124H42.5V1.2435H0.500005L0.5 51.6124Z" stroke="black"/>
 </symbol>
 
 <!-- 37 -->
@@ -179,136 +124,72 @@
 
 <!-- 31 -->
 <symbol id="block-31">
-<line x1="49.3489" y1="0.641885" x2="88.3489" y2="38.6419" stroke="black"/>
-<line x1="3" y1="73.5" y2="73.5" stroke="black"/>
-<line x1="2" y1="0.5" x2="50" y2="0.5" stroke="black"/>
-<path d="M2.49997 0.00675344L2.49995 73" stroke="black"/>
-<line x1="0.5" y1="74" x2="0.5" y2="84" stroke="black"/>
-<line x1="87" y1="83.5" x2="1" y2="83.5" stroke="black"/>
-<line x1="86.5" y1="67" x2="86.5" y2="83" stroke="black"/>
-<line x1="86" y1="67.5" x2="89" y2="67.5" stroke="black"/>
-<line x1="88.5" y1="38" x2="88.5" y2="67" stroke="black"/>
+<path d="M88.9576 38.6453L49.8065 1.1453H2.95752V74.1453H0.957565V84.1453H86.9576V68.1453H88.9576V38.6453Z" stroke="black"/>
+
 </symbol>
 
 <!-- 11 -->
 <symbol id="block-11">
-<line x1="22" y1="12.5" y2="12.5" stroke="black"/>
-<line x1="0.5" x2="0.5" y2="13" stroke="black"/>
-<line x1="22" y1="0.5" y2="0.5" stroke="black"/>
-<line x1="21.5" y1="13" x2="21.5" y2="1" stroke="black"/>
+<path d="M0.5 12.5H21.5V0.5H0.499985L0.5 12.5Z" stroke="black"/>
 </symbol>
 
 <!-- 12 -->
 <symbol id="block-12">
-<line x1="22" y1="12.5" y2="12.5" stroke="black"/>
-<line x1="0.5" x2="0.5" y2="13" stroke="black"/>
-<line x1="22" y1="0.5" y2="0.5" stroke="black"/>
-<line x1="21.5" y1="13" x2="21.5" y2="1" stroke="black"/>
+<path d="M0.5 12.5H21.5V0.5H0.499985L0.5 12.5Z" stroke="black"/>
 </symbol>
 
 <!-- 25 -->
 <symbol id="block-25">
-<line x1="32" y1="50.9" y2="50.9" stroke="black"/>
-<line x1="0.5" x2="0.5" y2="51" stroke="black"/>
-<line x1="32" y1="0.5" y2="0.5" stroke="black"/>
-<line x1="31.5" y1="51.375" x2="31.5" y2="1" stroke="black"/>
+<path d="M0.5 51.6124H31.5V1.21239L0.500003 1.21239L0.5 51.6124Z" stroke="black"/>
 </symbol>
 
 <!-- 22 -->
 <symbol id="block-22">
-<line x1="32" y1="34.5" y2="34.5" stroke="black"/>
-<line x1="0.5" x2="0.5" y2="35" stroke="black"/>
-<line x1="32" y1="0.5" y2="0.5" stroke="black"/>
-<line x1="31.5" y1="35" x2="31.5" y2="1" stroke="black"/>
+<path d="M0.5 35.7472V1.42456H31.5V35.7472H16.1921H0.5Z" stroke="black"/>
 </symbol>
 
 <!-- 21 -->
 <symbol id="block-21">
-<line x1="32" y1="31.5154" y2="31.5154" stroke="black"/>
-<line x1="0.5" x2="0.5" y2="32" stroke="black"/>
-<line x1="32" y1="0.5" y2="0.5" stroke="black"/>
-<line x1="31.5" y1="32" x2="31.5" y2="1" stroke="black"/>
+<path d="M0.5 32.5077H31.5V1.49231H0.5V17V32.5077Z" stroke="black"/>
 </symbol>
 
 <!-- 20 -->
 <symbol id="block-20">
-<line x1="32" y1="22.7923" y2="22.7923" stroke="black"/>
-<line x1="0.5" x2="0.5" y2="23" stroke="black"/>
-<line x1="32" y1="0.5" y2="0.5" stroke="black"/>
-<line x1="31.5" y1="23" x2="31.5" y2="1" stroke="black"/>
+<path d="M0.5 23.7952L31.5 23.5908V1.2952H0.5V23.7952Z" stroke="black"/>
 </symbol>
 
 <!-- 19 -->
 <symbol id="block-19">
-<line x1="32" y1="19.8846" y2="19.8846" stroke="black"/>
-<line x1="0.5" x2="0.5" y2="20" stroke="black"/>
-<line x1="32" y1="0.5" y2="0.5" stroke="black"/>
-<line x1="31.5" y1="20" x2="31.5" y2="1" stroke="black"/>
+<path d="M0.5 20.2918H31.5V1.09807L0.500006 1.09808L0.5 20.2918Z" stroke="black"/>
 </symbol>
 
 <!-- 30 -->
 <symbol id="block-30">
-<line x1="74.5" x2="74.5" y2="20" stroke="black"/>
-<line x1="0.5" x2="0.5" y2="61" stroke="black"/>
-<line y1="61.5" x2="32" y2="61.5" stroke="black"/>
-<line x1="31.6506" y1="61.6423" x2="74.6506" y2="19.6423" stroke="black"/>
-<line x1="3.12373e-10" y1="0.5" x2="74" y2="0.5" stroke="black"/>
+<path d="M74.7937 20.1423V1L0.643058 1.00001L0.643051 62L31.7937 62.1423L74.7937 20.1423Z" stroke="black"/>
 </symbol>
 
 <!-- 29 -->
 <symbol id="block-29">
-<line x1="86" y1="33.4539" y2="33.4539" stroke="black"/>
-<line x1="0.5" x2="0.5" y2="34" stroke="black"/>
-<line x1="86" y1="0.5" y2="0.5" stroke="black"/>
-<line x1="85.5" y1="34" x2="85.5" y2="1.0625" stroke="black"/>
+<path d="M0.5 35.7472H86.5V1.42456L0.5 1.42457V35.7472Z" stroke="black"/>
 </symbol>
 
 <!-- 10 -->
 <symbol id="block-10">
-<line x1="85" y1="67.5" y2="67.5" stroke="black"/>
-<line x1="85" y1="0.5" x2="0.988373" y2="0.5" stroke="black"/>
-<line x1="0.5" x2="0.5" y2="67" stroke="black"/>
-<path d="M85 0V67.5" stroke="black"/>
+<path d="M0.5 67.5H85V0.499998H0.499969L0.5 67.5Z" stroke="black"/>
 </symbol>
 
 <!-- 9 -->
 <symbol id="block-9">
-<line x1="0.5" y1="38" x2="0.5" y2="166" stroke="black"/>
-<line y1="-0.5" x2="43.969" y2="-0.5" transform="matrix(-1 0.00051663 -0.000493238 -1 82.0764 0)" stroke="black"/>
-<line y1="-0.5" x2="53.8157" y2="-0.5" transform="matrix(-0.708099 0.706113 -0.689528 -0.724259 38.1069 0)" stroke="black"/>
-<line x1="82.5764" x2="82.5764" y2="29" stroke="black"/>
-<line x1="128" y1="29.5" x2="82.0763" y2="29.5" stroke="black"/>
-<line y1="-0.5" x2="84.0305" y2="-0.5" transform="matrix(-1 -0.000184371 0.000176023 -1 128 216)" stroke="black"/>
-<line x1="128.5" y1="29" x2="128.5" y2="217" stroke="black"/>
-<line x1="44.4695" y1="166" x2="44.4695" y2="216" stroke="black"/>
-<line x1="43.9695" y1="166.5" x2="1.52588e-05" y2="166.5" stroke="black"/>
+<path d="M0.500007 166.5L0.5 38.2333L38.2717 0.522624L82.5764 0.499985V29.5H128.5V216.5H44.4695V166.5H0.500007Z" stroke="black"/>
 </symbol>
 
 <!-- 13 -->
 <symbol id="block-13">
-<line x1="0.5" y1="22" x2="0.5" stroke="black"/>
-<line x1="13" y1="0.5" y2="0.5" stroke="black"/>
-<line x1="12.5" y1="22" x2="12.5" stroke="black"/>
-<line y1="21.5" x2="12" y2="21.5" stroke="black"/>
+<path d="M0.5 0.5L0.500003 21.5H12.5V0.5H0.5Z" stroke="black"/>
 </symbol>
 
 <!-- 14 -->
 <symbol id="block-14">
-<line x1="0.5" y1="22" x2="0.5" stroke="black"/>
-<line x1="13" y1="0.5" y2="0.5" stroke="black"/>
-<line x1="12.5" y1="22" x2="12.5" stroke="black"/>
-<line y1="21.5" x2="12" y2="21.5" stroke="black"/>
+<path d="M0.5 0.5L0.500003 21.5H12.5V0.5H0.5Z" stroke="black"/>
 </symbol>
-<!-- <symbol id="block-">
-</symbol> -->
-<!-- <symbol id="block-">
-</symbol> -->
-<!-- <symbol id="block-">
-</symbol> -->
-<!-- <symbol id="block-">
-</symbol> -->
-<!-- <symbol id="block-">
-</symbol> -->
-
-
 </svg>

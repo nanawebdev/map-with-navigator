@@ -164,7 +164,7 @@ export default class Map extends React.Component {
                 {/* 47 */}
                 <Icon name="block-18" className={c.block18} color="black" width="32" height="15" />
                 {/* 7 */}
-                <Icon name="block-4" className={c.block4} color="black" width="62" height="50" />
+                <Icon name="block-4" className={c.block4} color="black" width="63" height="52" />
                 {/* 11 */}
                 <Icon name="block-3" className={c.block3} color="black" width="62" height="37" />
                 {/* 3 */}
@@ -184,11 +184,11 @@ export default class Map extends React.Component {
                 {/* 35 */}
                 <Icon name="block-37" className={c.block37} color="black" width="40" height="44" />
                 {/* 23 */}
-                <Icon name="block-27" className={c.block27} color="black" width="34" height="34" />
+                <Icon name="block-27" className={c.block27} color="black" width="35" height="35"   />
                 {/* 26 */}
-                <Icon name="block-28" className={c.block28} color="black" width="34" height="34" />
+                <Icon name="block-28" className={c.block28} color="black" width="35" height="35"   />
                 {/* 29 */}
-                <Icon name="block-26" className={c.block26} color="black" width="42" height="63" />
+                <Icon name="block-26" className={c.block26} color="black" width="43" height="63" />
                 {/* 14 */}
                 <Icon name="block-16" className={c.block16} color="black" width="13" height="22"/>
                 {/* 19 */}
@@ -196,7 +196,7 @@ export default class Map extends React.Component {
                 {/* 20  */}
                 <Icon name="block-15" className={c.block15} color="black" width="13" height="22" />
                 {/* 37 */}
-                <Icon name="block-23" className={c.block23} color="black" width="87" height="35" />
+                <Icon name="block-23" className={c.block23} color="black" width="87" height="37" />
                 {/* 39 */}
                 <Icon name="block-24" className={c.block24} color="black" width="43" height="52" />
                 {/* 43 */}
@@ -204,7 +204,7 @@ export default class Map extends React.Component {
                 {/* 42 */}
                 <Icon name="block-33" className={c.block33} color="black" width="130" height="85" />
                 {/* 54 */}
-                <Icon name="block-31" className={c.block31} color="black" width="89" height="84" />
+                <Icon name="block-31" className={c.block31} color="black" width="90" height="85" />
                 {/* 51 */}
                 <Icon name="block-12" className={c.block12} color="black" width="22" height="13" />
                 {/* 49 */}
@@ -212,9 +212,9 @@ export default class Map extends React.Component {
                 {/* 74 */}
                 <Icon name="block-25" className={c.block25} color="black" width="32" height="52" />
                 {/* 61 */}
-                <Icon name="block-22" className={c.block22} color="black" width="32" height="35" />
+                <Icon name="block-22" className={c.block22} color="black" width="32" height="37" />
                 {/* 62 */}
-                <Icon name="block-21" className={c.block21} color="black" width="32" height="33" />
+                <Icon name="block-21" className={c.block21} color="black" width="32" height="34" />
                 {/* 63 */}
                 <Icon name="block-20" className={c.block20} color="black" width="32" height="24" />
                 {/* 66 */}
@@ -222,9 +222,9 @@ export default class Map extends React.Component {
                 {/* 67 */}
                 <Icon name="block-30" className={c.block30} color="black" width="75" height="62" />
                 {/* 75 */}
-                <Icon name="block-29" className={c.block29} color="black"  width="86" height="34" />
+                <Icon name="block-29" className={c.block29} color="black"  width="87" height="37" />
                 {/* 56  */}
-                <Icon name="block-10" className={c.block10} color="black"  width="86" height="68" />
+                <Icon name="block-10" className={c.block10} color="black" width="86" height="68" />
                 {/* 68 */}
                 <Icon name="block-9" className={c.block9} color="black"  width="129" height="217" />
                 {/* 72 */}
