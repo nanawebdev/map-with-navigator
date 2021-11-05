@@ -13,6 +13,10 @@
     position: absolute;
 }
 
+.selected {
+    fill: red;
+}
+
 .plan {
     position: absolute;
     top: 0;
@@ -213,4 +217,23 @@
 .block13 {
     top: 45px;
     left: 496px;
+}
+
+.pointer1 {
+    position: absolute;
+    bottom: 157px;
+    left: 79px;
+    z-index: 1000;
+}
+
+.pointer2 {
+    position: absolute;
+    bottom: 37px;
+    left: 236px;
+    z-index: 1000;
+}
+
+.active {
+    background-color: #7fa2d8;
+    color: #fff;
 }

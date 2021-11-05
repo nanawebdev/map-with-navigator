@@ -1,0 +1,41 @@
+[ {
+  "description" : "Модный молодежный бутик",
+  "id" : 1,
+  "point" : 5,
+  "title" : "Zara"
+}, {
+  "description" : "Комфортная одежда японского качества",
+  "id" : 2,
+  "point" : 7,
+  "title" : "UNIQLO"
+}, {
+  "description" : "Одежда премиум класса",
+  "id" : 3,
+  "point" : 12,
+  "title" : " Massimo Dutti"
+}, {
+  "description" : "Мировой бренд женского белья",
+  "id" : 4,
+  "point" : 3,
+  "title" : "Victoria's Secret"
+}, {
+  "description" : "Эксклюзивная женская одежда",
+  "id" : 5,
+  "point" : 21,
+  "title" : "Uterque"
+}, {
+  "description" : "Немецкая элегантность в одежде",
+  "id" : 6,
+  "point" : 33,
+  "title" : "BOSS"
+}, {
+  "description" : "Бутик женской одежды",
+  "id" : 7,
+  "point" : 16,
+  "title" : "Weekend Max Mara"
+}, {
+  "description" : "Магазин женской одежды премиум класса",
+  "id" : 8,
+  "point" : 29,
+  "title" : "TWINSET"
+} ]
