@@ -15,6 +15,10 @@ const Search = () => {
         if(value.trim()) {
             shops.search(value.trim())
         }
+
+        if(value === '') {
+            shops.renderShops()
+        }
     }
 
     return (

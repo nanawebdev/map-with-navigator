@@ -96,7 +96,6 @@ const coordinates = {
     80: { x: 150, y: 214 },
 }
 
-
 // массив всех переходов (типо из 1 можно попасть в 8, и во 2) 
 const logs = {
     1: { 2: 1 },
@@ -159,16 +158,21 @@ const graph = new Graph(logs)
 
 const Map = () => {
 
-    const { enterPoint, selectedShop } = useContext(MapContext) 
-    console.log(selectedShop);
+    const { enterPoint, selectedShop } = useContext(MapContext)
+
     const point1 = enterPoint.toString()
     let point2
-
-    if(selectedShop) {
+    // console.log(selectedShop, 'select')
+    if (selectedShop) {
         point2 = selectedShop.toString()
-    } 
+    }
 
-
+    const setHighlight = (point) => {
+        let highlight
+        if (point2 === point || selectedShop === point) {
+            return highlight = {fill: '#007bff'}
+        }
+    }
 
     useEffect(() => {
 
@@ -176,8 +180,8 @@ const Map = () => {
         const ctx = canvas.getContext('2d')
 
 
-        if(point2) {
-            console.log(point2, 'p2')
+        if (point2) {
+
             draw(graph.findShortestPath(point1, point2), ctx)
         }
 
@@ -192,7 +196,7 @@ const Map = () => {
         const ctx = canvas.getContext('2d')
 
 
-        if(point2) {
+        if (point2) {
             console.log(point2, 'p2')
             draw(graph.findShortestPath(point1, point2), ctx)
         }
@@ -227,79 +231,79 @@ const Map = () => {
 
             <Icon name="main-block" className={c.mainBlock} color="black" width="591" height="387" />
             {/* 5 zara*/}
-            <Icon name="block-1" className={c.block1} width="124" height="170" />
+            <Icon name="block-1" className={c.block1} width="124" height="170" styles={setHighlight(5)} />
             {/* 9 */}
-            <Icon name="block-2" className={c.block2} color="black" width="13" height="22" />
+            <Icon name="block-2" className={c.block2} color="black" width="13" height="22" styles={setHighlight(9)}  />
             {/* 47 */}
-            <Icon name="block-18" className={c.block18} color="black" width="32" height="15" />
+            <Icon name="block-18" className={c.block18} color="black" width="32" height="15" styles={setHighlight(47)} />
             {/* 7 UNIQLO */}
-            <Icon name="block-4" className={c.block4} color="black" width="63" height="52" />
+            <Icon name="block-4" className={c.block4} color="black" width="63" height="52" styles={setHighlight(7)}  />
             {/* 11 */}
-            <Icon name="block-3" className={c.block3} color="black" width="62" height="37" />
+            <Icon name="block-3" className={c.block3} color="black" width="62" height="37" styles={setHighlight(11)}  />
             {/* 3 Victoria's Secret */}
-            <Icon name="block-5" className={c.block5} color="black" width="47" height="31" />
+            <Icon name="block-5" className={c.block5} color="black" width="47" height="31" styles={setHighlight(3)} />
             {/* 12  Massimo Dutti */}
-            <Icon name="block-6" className={c.block6} color="black" width="62" height="87" />
+            <Icon name="block-6" className={c.block6} color="black" width="62" height="87"styles={setHighlight(12)} />
             {/* 21 Uterque */}
-            <Icon name="block-7" className={c.block7} color="black" width="77" height="87" />
+            <Icon name="block-7" className={c.block7} color="black" width="77" height="87" styles={setHighlight(21)}  />
             {/* 31 */}
-            <Icon name="block-8" className={c.block8} color="black" width="87" height="76" />
+            <Icon name="block-8" className={c.block8} color="black" width="87" height="76" styles={setHighlight(31)}  />
             {/* 16 Weekend Max Mara */}
-            <Icon name="block-34" className={c.block34} color="black" width="89" height="87" />
+            <Icon name="block-34" className={c.block34} color="black" width="89" height="87" styles={setHighlight(16)}  />
             {/* 46  */}
-            <Icon name="block-35" className={c.block35} color="black" width="53" height="78" />
+            <Icon name="block-35" className={c.block35} color="black" width="53" height="78" styles={setHighlight(46)}  />
             {/* 33 BOSS */}
-            <Icon name="block-36" className={c.block36} color="black" width="40" height="44" />
+            <Icon name="block-36" className={c.block36} color="black" width="40" height="44" styles={setHighlight(33)}  />
             {/* 35 */}
-            <Icon name="block-37" className={c.block37} color="black" width="40" height="44" />
+            <Icon name="block-37" className={c.block37} color="black" width="40" height="44" styles={setHighlight(35)}  />
             {/* 23 */}
-            <Icon name="block-27" className={c.block27} color="black" width="35" height="35" />
+            <Icon name="block-27" className={c.block27} color="black" width="35" height="35" styles={setHighlight(23)}  />
             {/* 26 */}
-            <Icon name="block-28" className={c.block28} color="black" width="35" height="35" />
+            <Icon name="block-28" className={c.block28} color="black" width="35" height="35" styles={setHighlight(26)}  />
             {/* 29 TWINSET */}
-            <Icon name="block-26" className={c.block26} color="black" width="43" height="63" />
+            <Icon name="block-26" className={c.block26} color="black" width="43" height="63" styles={setHighlight(29)} />
             {/* 14 */}
-            <Icon name="block-16" className={c.block16} color="black" width="13" height="22" />
+            <Icon name="block-16" className={c.block16} color="black" width="13" height="22" styles={setHighlight(14)}  />
             {/* 19 */}
-            <Icon name="block-17" className={c.block17} color="black" width="22" height="13" />
+            <Icon name="block-17" className={c.block17} color="black" width="22" height="13" styles={setHighlight(19)}  />
             {/* 20  */}
-            <Icon name="block-15" className={c.block15} color="black" width="13" height="22" />
+            <Icon name="block-15" className={c.block15} color="black" width="13" height="22" styles={setHighlight(20)}  />
             {/* 37 */}
-            <Icon name="block-23" className={c.block23} color="black" width="87" height="37" />
+            <Icon name="block-23" className={c.block23} color="black" width="87" height="37" styles={setHighlight(37)} />
             {/* 39 */}
-            <Icon name="block-24" className={c.block24} color="black" width="43" height="52" />
+            <Icon name="block-24" className={c.block24} color="black" width="43" height="52" styles={setHighlight(39)}  />
             {/* 43 */}
-            <Icon name="block-32" className={c.block32} color="black" width="73" height="66" />
+            <Icon name="block-32" className={c.block32} color="black" width="73" height="66" styles={setHighlight(43)} />
             {/* 42 */}
-            <Icon name="block-33" className={c.block33} color="black" width="130" height="85" />
+            <Icon name="block-33" className={c.block33} color="black" width="130" height="85" styles={setHighlight(42)}  />
             {/* 54 */}
-            <Icon name="block-31" className={c.block31} color="black" width="90" height="85" />
+            <Icon name="block-31" className={c.block31} color="black" width="90" height="85" styles={setHighlight(54)}  />
             {/* 51 */}
-            <Icon name="block-12" className={c.block12} color="black" width="22" height="13" />
+            <Icon name="block-12" className={c.block12} color="black" width="22" height="13" styles={setHighlight(51)}  />
             {/* 49 */}
-            <Icon name="block-11" className={c.block11} color="black" width="22" height="13" />
+            <Icon name="block-11" className={c.block11} color="black" width="22" height="13" styles={setHighlight(49)}  />
             {/* 74 */}
-            <Icon name="block-25" className={c.block25} color="black" width="32" height="52" />
+            <Icon name="block-25" className={c.block25} color="black" width="32" height="52" styles={setHighlight(74)} />
             {/* 61 */}
-            <Icon name="block-22" className={c.block22} color="black" width="32" height="37" />
+            <Icon name="block-22" className={c.block22} color="black" width="32" height="37" styles={setHighlight(61)}  />
             {/* 62 */}
-            <Icon name="block-21" className={c.block21} color="black" width="32" height="34" />
+            <Icon name="block-21" className={c.block21} color="black" width="32" height="34" styles={setHighlight(62)}  />
             {/* 63 */}
-            <Icon name="block-20" className={c.block20} color="black" width="32" height="24" />
+            <Icon name="block-20" className={c.block20} color="black" width="32" height="24" styles={setHighlight(63)} />
             {/* 66 */}
-            <Icon name="block-19" className={c.block19} color="black" width="32" height="21" />
+            <Icon name="block-19" className={c.block19} color="black" width="32" height="21" styles={setHighlight(66)} />
             {/* 67 */}
-            <Icon name="block-30" className={c.block30} color="black" width="75" height="62" />
+            <Icon name="block-30" className={c.block30} color="black" width="75" height="62" styles={setHighlight(67)} />
             {/* 75 */}
-            <Icon name="block-29" className={c.block29} color="black" width="87" height="37" />
+            <Icon name="block-29" className={c.block29} color="black" width="87" height="37" styles={setHighlight(75)} />
             {/* 56  */}
-            <Icon name="block-10" className={c.block10} color="black" width="86" height="68" />
+            <Icon name="block-10" className={c.block10} color="black" width="86" height="68" styles={setHighlight(56)} />
             {/* 68 */}
-            <Icon name="block-9" className={c.block9} color="black" width="129" height="217" />
+            <Icon name="block-9" className={c.block9} color="black" width="129" height="217" styles={setHighlight(68)} />
             {/* 72 */}
-            <Icon name="block-14" className={c.block14} color="black" width="13" height="22" />
+            <Icon name="block-14" className={c.block14} color="black" width="13" height="22" styles={setHighlight(72)} />
             {/* 71 */}
-            <Icon name="block-13" className={c.block13} color="black" width="13" height="22" />
+            <Icon name="block-13" className={c.block13} color="black" width="13" height="22" styles={setHighlight(71)} />
 
 
 
